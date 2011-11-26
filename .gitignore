@@ -1,0 +1,55 @@
+######################################## Unique to this project
+.sass-cache/
+public/assets/
+/public/assets
+/db/sphinx/
+/solr/data
+db/data.yml
+.svn
+
+######### all copied from https://github.com/github/gitignore
+
+######################################## ruby
+*.pid
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+db/development.sqlite3-journal
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+config/*.yml
+rerun.txt
+
+######################################## emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+
+######################################## mac os x
+.DS_Store?
+.DS_Store
+Icon?
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+#
+public/uploads
